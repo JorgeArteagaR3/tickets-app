@@ -1,17 +1,9 @@
 import Button from "../UI/Button/Button";
-import { useState } from "react";
 import { BsCalendar4Week } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
 import { CgMenuGridO } from "react-icons/cg";
 
 export default function SearchBar() {
-    const [form, setForm] = useState({
-        searchText: "",
-        date: "",
-        location: "",
-        eventType: "",
-    });
-
     const viewSize = window.screen.width;
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
         e.preventDefault();
