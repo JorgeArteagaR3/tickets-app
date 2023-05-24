@@ -11,9 +11,10 @@ function App() {
         { path: "/tickets", element: <Tickets /> },
     ]);
     return (
-        <>
+        <div>
             <RouterProvider router={router} />
-        </>
+            <div id="modal"></div>
+        </div>
     );
 }
 
