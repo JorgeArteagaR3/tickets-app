@@ -18,7 +18,7 @@ export default function NavBar() {
     const openModal = () => setIsModalOpen(true);
     const closeModal = () => setIsModalOpen(false);
 
-    const url = useEffect(() => {
+    useEffect(() => {
         if (isModalOpen) {
             document.body.style.overflow = "hidden";
         } else {
