@@ -1,3 +1,4 @@
+import React from 'react'
 import Button from "../UI/Button/Button";
 import { BsCalendar4Week } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";

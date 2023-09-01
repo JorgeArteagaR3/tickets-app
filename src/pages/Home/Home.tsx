@@ -30,7 +30,7 @@ function Home() {
                     <h2 className="mb-4">Most Popular Events</h2>
                     <section className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                         {events.map(event => {
-                            return <EventCard key={event.id} title={event.title} imgSrc={event?.bg_image?.image_path} date={event.start_date && new Date(event.start_date).toDateString()} />
+                            return <EventCard key={event.id} title={event.title} imgSrc={event?.bgImage?.imagePath} date={event.startDate && new Date(event.startDate).toDateString()} />
                         })}
                     </section>
                 </main>

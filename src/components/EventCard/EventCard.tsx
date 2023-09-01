@@ -1,7 +1,7 @@
+import React from "react";
 import Button from "../UI/Button/Button";
 import Card from "../UI/Card/Card";
 import { BsCalendar4Week } from "react-icons/bs";
-import React from "react";
 
 type Props = {
     title?: string;
